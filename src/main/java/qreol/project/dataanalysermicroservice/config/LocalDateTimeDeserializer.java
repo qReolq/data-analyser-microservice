@@ -1,6 +1,9 @@
 package qreol.project.dataanalysermicroservice.config;
 
-import com.google.gson.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Type;
